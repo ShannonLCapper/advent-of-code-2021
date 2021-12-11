@@ -3,7 +3,8 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "ts-node": "ts-node"
+        "ts-node": "ts-node",
+        "day": "sh -c 'ts-node src/day${0}/index.ts'"
     },
     "dependencies": {},
     "devDependencies": {
